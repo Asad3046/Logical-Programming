@@ -9,6 +9,7 @@ class VowelConsonant
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the alphabet: ");
 		char ch=sc.nextLine().charAt(0); //to take input from the user as character
+		ch = Character.toLowerCase(ch);
 		//char ch='e';
 		sc.close();
 		
